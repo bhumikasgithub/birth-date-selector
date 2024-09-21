@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <label>date of birth</label>
+        <select id="day" name="day">
+        <script>
+            for(let d=1; d<=31; d++)
+            document.write("<option value="+d+">"+d+"</option>");
+        </script>
+        </select>
+        <select id="month" name="month">
+            <script>
+                for(let d=1; d<=31; d++)
+                document.write("<option value="+d+">"+d+"</option>");
+            </script>
+        </select>
+            <select id ="year" name="year">
+                <script>
+                    for(let y=1900; y<=2022; y++)
+                    document.write("<option value="+y+">"+y+"</option>");
+                </script>
+            </select>
+    </body>
+</html>
